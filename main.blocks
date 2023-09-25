@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="o4/x%W26Bd*N_zsE7_!o">mySprite</variable><variable type="KIND_SpriteKind" id="wnhC3D9mOrvA|E^aENV|">Player</variable><variable type="KIND_SpriteKind" id="%M#9R?%#pVk#UXN,MT[{">Projectile</variable><variable type="KIND_SpriteKind" id="+sdbT^Q^ov63YHU=O|C2">Food</variable><variable type="KIND_SpriteKind" id="{ikJoAK4X175IBWOx535">Enemy</variable></variables><block type="pxt-on-start" id=";5_U~fy#ooEOJec5wBBT" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="B2etI~-C^LfMlvSURj0!"><field name="VAR" id="o4/x%W26Bd*N_zsE7_!o">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="gWoYMJ|A!:}c0/tDR(pN"><value name="img"><shadow type="screen_image_picker" id="3g-pXYsKL*@R]#Ii$!d{"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"3g-pXYsKL*@R]#Ii$!d{"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="MlPFC8Ya,C}CVD[(fG|8"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="VX,eRh1K5j]RoNuG9zbh"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get" id=")q/7IWBwe46A_m^L+#s8"><field name="VAR" id="o4/x%W26Bd*N_zsE7_!o">mySprite</field></shadow></value><next><block type="gameOver2" id="qu.-FFs4B^.LLaE]@4h}"><value name="win"><shadow type="toggleWinLose" id="egSnuG;$34A`eK36u77."><field name="win">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
